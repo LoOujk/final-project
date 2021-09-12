@@ -1,0 +1,15 @@
+[ {"user":"Admin",
+    "login": "userAdmin",
+    "password": "pass123admin",
+    "email": "admin@mail.ru"
+    
+},
+    
+
+ {"user":"NoAdmin",
+    "login": "userUser",
+    "password": "pass123user",
+    "email": "user@mail.ru"
+}
+
+]

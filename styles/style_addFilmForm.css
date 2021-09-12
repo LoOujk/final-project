@@ -1,0 +1,34 @@
+.filmForms{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.filmForms input{
+    text-align: center;
+    border:none;
+    outline: none;
+    width:30%;
+    box-sizing: border-box;
+    color: gray;
+    padding: 10px 10px;
+    border-radius: 25px;
+    background: #e2e0df;
+    width: 400px;
+}
+.addClearButtons button{
+    width: 10%;
+    background-color: rgb(111, 152, 165);
+    border-radius: 25px;
+    padding: 10px 10px;
+    margin: 5px 5px;
+    text-align: center;
+    border: 0;
+    width: 100px;
+    align-items: center;
+    margin: 5px 7px 0 7px;
+}
+.filmForms span{
+    font-size: 11px;
+    color: rgb(195, 23, 23);
+    visibility: hidden;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/style_non.css">
+  <link rel="stylesheet" href="styles/style.css">
+  <!-- <script src="src/reg.js" ></script> -->
+  <script defer type="text/javascript" src="dist/bundle.js"></script>
+  <title>Registration</title>
+</head>
+<body>
+    <header>
+        <a  href="index.html"><img class = "home_icon" src="img/home_icon.png"   alt="Home"></a>
+    </header>
+        <div class="form_reg">  
+            <form class='login-form'>
+                <h1>Registration</h1>
+                <div class="inputForm">  
+                    <input id="inputName" class='userData' placeholder='Your name' type='text' min="100" >
+                    <span id="spanName">Required field, min 6 symbols</span>
+
+                    <input id="inputSurName" class='userData' placeholder='Your surname' type='text'>
+                    <span id="spanSurName">Required field, min 6 symbols</span>
+
+                    <input id="inputPassword" class='userData' placeholder='Your password' type='password'>
+                    <span id="spanPas">Required field, min 6 symbols</span>
+
+                    <input id="inputConfPassword" class='userData' placeholder='Confirm password' type='password'>
+                    <span id="spanConfPas">Required field, min 6 symbols</span>
+                    
+                    <input id="inputEmail" class='userData' placeholder='Email' type='email'>
+                    <span id="spanEmail">Required field, min 6 symbols</span>
+                    
+                    <div class="buttonReg">
+                        <button class="signUp" type="submit" >Sign Up</button>
+                        <button class="Back" type="button" onclick="document.location='reg.html'">Back</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+   
+
+</body>
+</html>
